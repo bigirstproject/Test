@@ -18,8 +18,8 @@ public class ForthActivity extends ReactActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.d(TAG, "ForthActivity ");
-        Log.d("lidexian", "ThirdActivity");
-        Log.d("lidexian", "ThirdActivity");
+        Log.d("lidexian", "ForthActivity");
+        Log.d("lidexian", "ForthActivity");
     }
 
     /**
