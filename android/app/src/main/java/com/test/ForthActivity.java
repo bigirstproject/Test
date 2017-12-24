@@ -11,6 +11,10 @@ import com.facebook.react.ReactActivity;
  */
 
 public class ForthActivity extends ReactActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
 
     private static final String TAG = ForthActivity.class.getSimpleName();
 
