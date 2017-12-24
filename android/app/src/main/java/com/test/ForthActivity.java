@@ -1,5 +1,6 @@
 package com.test;
 
+import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -10,6 +11,10 @@ import com.facebook.react.ReactActivity;
  */
 
 public class ForthActivity extends ReactActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
 
     /**
      * Returns the name of the main component registered from JavaScript.
@@ -23,6 +28,8 @@ public class ForthActivity extends ReactActivity {
 
 
     public void testOne() {
+        Toast.makeText(ForthActivity.this, "123testtest", Toast.LENGTH_LONG).show();
+        Toast.makeText(ForthActivity.this, "123454656testtest", Toast.LENGTH_LONG).show();
         Toast.makeText(ForthActivity.this, "testOne", Toast.LENGTH_LONG).show();
         Toast.makeText(ForthActivity.this, "", Toast.LENGTH_LONG).show();
     }
