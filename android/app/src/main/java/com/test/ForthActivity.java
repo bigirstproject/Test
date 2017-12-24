@@ -32,8 +32,6 @@ public class ForthActivity extends ReactActivity {
 
 
     public void testOne() {
-
-        Toast.makeText(ForthActivity.this, "56", Toast.LENGTH_LONG).show();
-
+        Toast.makeText(ForthActivity.this, "35testtet", Toast.LENGTH_LONG).show();
     }
 }
