@@ -26,7 +26,7 @@ public class ForthActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        Log.d("lidexian", "ThirdActivity");
+        Log.d("lidexian", "hirdActivity");
         return "third";
     }
 
