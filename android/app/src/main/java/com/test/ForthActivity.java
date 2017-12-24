@@ -11,10 +11,6 @@ import com.facebook.react.ReactActivity;
  */
 
 public class ForthActivity extends ReactActivity {
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-    }
 
     private static final String TAG = ForthActivity.class.getSimpleName();
 
@@ -36,8 +32,7 @@ public class ForthActivity extends ReactActivity {
 
 
     public void testOne() {
-        Toast.makeText(ForthActivity.this, "34234test", Toast.LENGTH_LONG).show();
-        Toast.makeText(ForthActivity.this, "testOne", Toast.LENGTH_LONG).show();
+        Toast.makeText(ForthActivity.this, "3testtet", Toast.LENGTH_LONG).show();
         Toast.makeText(ForthActivity.this, "", Toast.LENGTH_LONG).show();
     }
 }
