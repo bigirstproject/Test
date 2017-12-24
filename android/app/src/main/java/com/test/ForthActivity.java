@@ -26,13 +26,12 @@ public class ForthActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        Log.d("lidexian", "ThirdActivity");
+        Log.d("lidexian", "hirdActivity");
         return "third";
     }
 
 
     public void testOne() {
-        Toast.makeText(ForthActivity.this, "3testtet", Toast.LENGTH_LONG).show();
-        Toast.makeText(ForthActivity.this, "", Toast.LENGTH_LONG).show();
+        Toast.makeText(ForthActivity.this, "35testtet", Toast.LENGTH_LONG).show();
     }
 }
